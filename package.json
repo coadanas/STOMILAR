@@ -1,0 +1,20 @@
+{
+  "name": "sec",
+  "version": "1.0.0",
+  "description": "this is second theme",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "theme"
+  ],
+  "author": "anas",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "hbs": "^4.2.0",
+    "mongoose": "^7.6.1",
+    "nodemon": "^3.0.1"
+  }
+}

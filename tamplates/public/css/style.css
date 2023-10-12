@@ -1,0 +1,116 @@
+/* * {
+  margin: 0px;
+  padding: 0px;
+  font-family: Sans-Serif;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+/* HERO SECTION */
+#hero-sec {
+  width: 100vw;
+  height: 500px;
+  background: linear-gradient(75deg, #4F03D5, #6B03EC,#A40AFF);
+  color: white;
+}
+.des-sec {
+  width: 400px;
+}
+.des-sec h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+}
+.des-sec p {
+  font-size: 1rem;
+  font-weight: 500;
+}
+.des-sec .btn {
+  padding: 16px 30px;
+  border: 1.5px solid #fff;
+  border-radius: 30px;
+  color: white;
+  font-weight: 700;
+}
+.des-sec .btn:hover {
+  border: 1.5px solid transparent;
+  color: black;
+}
+.hero-img {
+  width: 400px;
+}
+.hero-img img {
+  width: 400px;
+}
+
+
+/* ====== OUR SERVICES ====== */
+.services-title h2 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+}
+.services-box .card {
+  margin: 1.5vh;
+  border: 1px solid transparent;
+}
+.card-body h2 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.card-body p {
+  color: gray;
+}
+
+
+/* ======== CHOOSE US  ======= */
+.choose-us img {
+  width: 70px;
+  height: auto;
+}
+
+/* ========= BANNER 1 ========= */
+.banner1 {
+  width: 100vw;
+  height: 400px;
+  background: linear-gradient(75deg, #2601B1, #6403E6,#AA0AFE);
+  color: white;
+}
+.banner1 h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.banner1 .btn {
+  padding: 16px 30px;
+  border: 1.5px solid #fff;
+  border-radius: 30px;
+  color: white;
+  font-weight: 700;
+}
+.banner1 .btn:hover {
+  border: 1.5px solid transparent;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ===== post ======= */
+.w-80 {
+  width: 80vw;
+}
+/* .post-img {
+  width: 80vw;
+} */
+.post-img img {
+  width: 80vw;
+  height: auto;
+}
+.post-section p {
+  font-size: 1rem;
+}
