@@ -114,3 +114,39 @@ a {
 .post-section p {
   font-size: 1rem;
 }
+
+  @media (max-width: 767px) {
+  #hero-sec {
+    width: 100vw;
+    height: 350px;
+  }
+  .des-sec {
+    width: 200px;
+  }
+  .des-sec h2 {
+    font-size: 30px;
+    letter-spacing: 1px;
+  }
+  .des-sec p {
+    font-size: 12px;
+    /* margin-top: 0.5rem; */
+  }
+  .des-sec .btn {
+    padding: 9px 12px;
+    font-size: 12px;
+    /* margin-top: 0.5rem; */
+  }
+  .hero-img {
+    width: 150px;
+  }
+  .hero-img img {
+    width: 150px;
+  }
+  /* Our Services */
+  .services-title h2 {
+    font-size: 2rem;
+  }
+  .services-box {
+    flex-direction: column;
+  }
+  }
